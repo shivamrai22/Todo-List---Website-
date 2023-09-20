@@ -13,8 +13,9 @@ h1{
 }
 
 .todoList input{
-    height:50px;
-    width:500px;
+    height:8vh;
+    width:45vw;
+    min-width:300px;
     border-radius: 5px;
     border:2px solid black;
     font-size: large;
@@ -26,15 +27,19 @@ h1{
 }
 
 .buttons{
-    margin-top:30px;
+    /* margin-top:30px; */
     text-align: center;
+    /* border:5px solid red; */
     
 }
 .buttons button{
-    width:200px;
-    height:70px;
+    
+    width:15vw;
+    height:10vh;
+    min-width:150px;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: 20px;
     border-radius: 5px;
     border: 2px solid black;
     background: rgb(179, 126, 236);
